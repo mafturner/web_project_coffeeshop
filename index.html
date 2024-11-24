@@ -34,19 +34,19 @@
 
           <ul class="nav__links">
             <li>
-              <a href="#Recipes" class="nav__link">Recetas</a>
+              <a href="#recipes" class="nav__link">Recetas</a>
             </li>
             <li>
-              <a href="#Reservation" class="nav__link">Reservar una mesa</a>
+              <a href="#reservation" class="nav__link">Reservar una mesa</a>
             </li>
             <li>
-              <a href="#Contacts" class="nav__link">Contactos</a>
+              <a href="#contacts" class="nav__link">Contactos</a>
             </li>
           </ul>
         </nav>
 
-        <span class="header__span-accent">Café de especialidad</span>
         <h1 class="header__title">en Triple Peaks</h1>
+        <span class="header__span-accent">Café de especialidad</span>
         <p class="header__description">
           ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
           para darte energía y motivar tu creatividad.
@@ -57,18 +57,20 @@
           class="header__image"
         />
         <div class="header__footer">
-          <p class="header__footer-time">
-            <span class="header__footer-label">Horario:</span>
-            <span class="header__footer-weekdays"
-              >Lunes a Viernes (de 10:00h a 19:00h)</span
-            >
-            <span class="header__footer-weekends"
-              >Sábados y Domingos (de 11:00h a 18:00h)</span
-            >
-          </p>
-          <p class="header__footer-address">
-            Avenida del Éxito 200, Ciudad Triple Peaks
-          </p>
+          <div class="header__footer-time">
+            <p class="header__paragraph">Horario:</p>
+            <p class="header__paragraph">
+              Lunes a Viernes (de 10:00h a 19:00h)
+            </p>
+            <p class="header__paragraph">
+              Sábados y Domingos (de 11:00h a 18:00h)
+            </p>
+          </div>
+          <div class="header__footer-address">
+            <p class="header__paragraph">
+              Avenida del Éxito 200, Ciudad Triple Peaks
+            </p>
+          </div>
         </div>
       </header>
 
@@ -83,6 +85,7 @@
           <div class="recipes__videos">
             <div class="recipes__video-item">
               <iframe
+                class="recipes__iframe"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc?si=vxPIuIrWDsN7YUVE"
                 title="The Ultimate AeroPress Technique_episode3"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -91,15 +94,14 @@
               >
               </iframe>
               <div class="recipes__video-caption">
-                <span class="recipes__video-caption-text"
-                  >Receta en Aeropress</span
-                >
-                <span class="recipes__video-caption-duration">~5 min</span>
+                <p class="recipes__video-caption-text">Receta en Aeropress</p>
+                <p class="recipes__video-caption-duration">~5 min</p>
               </div>
             </div>
 
             <div class="recipes__video-item">
               <iframe
+                class="recipes__iframe"
                 src="https://www.youtube.com/embed/st571DYYTR8?si=oDb9Yq4DJZO4-fzB"
                 title="The ultimate French Press Technique"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -107,10 +109,10 @@
                 allowfullscreen
               ></iframe>
               <div class="recipes__video-caption">
-                <span class="recipes__video-caption-text"
-                  >Receta en cafetera francesa</span
-                >
-                <span class="recipes__video-caption-duration">~15 min</span>
+                <p class="recipes__video-caption-text">
+                  Receta en cafetera francesa
+                </p>
+                <p class="recipes__video-caption-duration">~15 min</p>
               </div>
             </div>
           </div>
@@ -118,7 +120,7 @@
 
         <!--Segunda sección parte 2-->
         <section id="reservation" class="reservation">
-          <h2></h2>
+          <h2>Reserva una mesa</h2>
         </section>
       </main>
 
