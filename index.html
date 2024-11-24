@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,24 +20,110 @@
       rel="stylesheet"
     />
   </head>
-  <body>
-    <!--Primer bloque-->
-    <div class="page">
-      Probando...
-      <header class="header"></header>
 
-      <!--Segundo bloque-->
+  <body>
+    <!--Primera sección-->
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="images/logo_coffeeshop_dark.svg"
+            alt="Logo de TripleEspresso"
+            class="nav__logo"
+          />
+
+          <ul class="nav__links">
+            <li>
+              <a href="#Recipes" class="nav__link">Recetas</a>
+            </li>
+            <li>
+              <a href="#Reservation" class="nav__link">Reservar una mesa</a>
+            </li>
+            <li>
+              <a href="#Contacts" class="nav__link">Contactos</a>
+            </li>
+          </ul>
+        </nav>
+
+        <span class="header__span-accent">Café de especialidad</span>
+        <h1 class="header__title">en Triple Peaks</h1>
+        <p class="header__description">
+          ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
+          para darte energía y motivar tu creatividad.
+        </p>
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt="Ilustración 'Dentro de la Cafetería'"
+          class="header__image"
+        />
+        <div class="header__footer">
+          <p class="header__footer-time">
+            <span class="header__footer-label">Horario:</span>
+            <span class="header__footer-weekdays"
+              >Lunes a Viernes (de 10:00h a 19:00h)</span
+            >
+            <span class="header__footer-weekends"
+              >Sábados y Domingos (de 11:00h a 18:00h)</span
+            >
+          </p>
+          <p class="header__footer-address">
+            Avenida del Éxito 200, Ciudad Triple Peaks
+          </p>
+        </div>
+      </header>
+
+      <!--Segunda sección parte 1-->
       <main class="content">
         <section id="recipes" class="recipes">
-          <h2>Recetas</h2>
+          <h2 class="recipes__title">Recetas</h2>
+          <h3 class="recipes__subtitle">
+            Echa un vistazo a las recetas que hemos reunido para que elabores
+            tus propios snacks.
+          </h3>
+          <div class="recipes__videos">
+            <div class="recipes__video-item">
+              <iframe
+                src="https://www.youtube.com/embed/j6VlT_jUVPc?si=vxPIuIrWDsN7YUVE"
+                title="The Ultimate AeroPress Technique_episode3"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              >
+              </iframe>
+              <div class="recipes__video-caption">
+                <span class="recipes__video-caption-text"
+                  >Receta en Aeropress</span
+                >
+                <span class="recipes__video-caption-duration">~5 min</span>
+              </div>
+            </div>
+
+            <div class="recipes__video-item">
+              <iframe
+                src="https://www.youtube.com/embed/st571DYYTR8?si=oDb9Yq4DJZO4-fzB"
+                title="The ultimate French Press Technique"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <div class="recipes__video-caption">
+                <span class="recipes__video-caption-text"
+                  >Receta en cafetera francesa</span
+                >
+                <span class="recipes__video-caption-duration">~15 min</span>
+              </div>
+            </div>
+          </div>
         </section>
-        <section id="reservation" class="reservation">
-          <h2>Reservar una mesa</h2>
-        </section>
+
+        <!--Segunda sección parte 2-->
+        <!--  <section id="reservation" class="reservation">
+          <h2></h2>
+        </section> -->
       </main>
 
-      <!--Tercer bloque-->
-      <footer id="footer" class="footer"></footer>
+      <!--Tercera sección-->
+      <!-- <footer id="footer" class="footer"></footer> -->
     </div>
   </body>
 </html>
