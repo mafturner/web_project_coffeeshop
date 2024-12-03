@@ -208,10 +208,7 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin-top: 100px;
-  margin-bottom: 80px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 100px 0 80px;
 }
 
 .form {
