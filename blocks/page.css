@@ -7,10 +7,3 @@
   font-size: 16px;
   line-height: 20px;
 }
-
-.content {
-  font-family: "Noto Serif", "Times New Roman", serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
