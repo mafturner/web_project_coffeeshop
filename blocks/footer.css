@@ -1,0 +1,102 @@
+.footer {
+  background-color: #0a2850; /* Fondo azul oscuro */
+  padding: 60px 80px; /* Espaciado interno */
+  position: relative;
+  color: #ffffff; /* Color del texto blanco */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Footer Content */
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: flex-start;
+}
+
+/* Logo Section */
+.footer__logo {
+  position: relative;
+  display: flex;
+  flex-direction: column; /* Apilar elementos verticalmente */
+  align-items: flex-start;
+  z-index: 2;
+}
+
+.footer__circle {
+  position: absolute;
+  width: 340px;
+  height: 340px;
+  background-color: #2f80ed; /* Azul del círculo */
+  border-radius: 50%;
+  top: -100px; /* Ajustar la posición superior del círculo */
+  left: -80px; /* Ajustar la posición izquierda del círculo */
+  z-index: 1; /* Asegura que esté detrás del logo */
+}
+
+.footer__logo-img {
+  width: 105px; /* Tamaño del logo */
+  height: 39px;
+  z-index: 2; /* Mantén el logo sobre el círculo */
+  margin-bottom: 20px;
+}
+
+.footer__copyright {
+  font-size: 16px;
+  color: #c1c1c1; /* Gris claro */
+  margin-top: 20px; /* Espaciado desde el logo */
+  z-index: 2;
+}
+
+/* Social Section */
+.footer__social {
+  text-align: right; /* Alinear al lado derecho */
+}
+
+.footer__social-heading {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  margin-bottom: 16px;
+}
+
+.footer__social-link {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Separar el ícono del texto */
+  color: #ffffff; /* Blanco por defecto */
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease; /* Transición para hover */
+}
+
+.footer__social-link:hover {
+  color: #c1c1c1; /* Cambia a gris claro al pasar el cursor */
+}
+
+.footer__social-icon {
+  width: 24px; /* Tamaño del ícono */
+  height: 24px;
+}
+
+/* Hover Effects */
+.nav__link:hover {
+  color: #2f80ed; /* Cambia el color del enlace al pasar el cursor */
+  transition: color 0.3s ease;
+}
+
+.form__button:hover {
+  opacity: 0.7; /* Reduce la opacidad al pasar el cursor */
+  transition: opacity 0.3s ease;
+}
